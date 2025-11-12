@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+.env
+
+# Jupyter/IDE
+.vscode/
+.idea/
+
+# Data and Models (if not tracked)
+*.csv
+*.xlsx
+*.model
+*.faiss
