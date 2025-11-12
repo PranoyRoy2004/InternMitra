@@ -136,4 +136,3 @@ It stands as a symbol of innovation, accessibility, and social good.
 
 ---
 
-Would you like me to add **badges (Python version, license, stars, forks, last commit)** and **collapsible sections** to make it look like a **professional open-source project** on GitHub?
