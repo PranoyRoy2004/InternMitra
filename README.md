@@ -69,6 +69,7 @@ InternMitra stands out as a **mission-driven initiative** that combines **AI inn
 
 ```
 AI-Internship-Recommender/
+|--archeive                        #data used to train the model
 ├── .gitignore                     # Ignored files and folders
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Required Python dependencies
