@@ -1,6 +1,6 @@
 // main.js - Shared utilities used across all pages
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://internmitra-backend-t6o3.onrender.com";
 
 function getUserId() {
   let userId = localStorage.getItem("internmitra_user_id");
