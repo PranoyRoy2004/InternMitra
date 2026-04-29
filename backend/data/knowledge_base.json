@@ -1,0 +1,52 @@
+[
+  {
+    "id": "kb001",
+    "topic": "resume writing",
+    "content": "A strong internship resume should be one page, include a summary, skills section, projects, and education. Quantify achievements where possible. Use action verbs like built, designed, improved, led. Tailor your resume for each role by matching keywords from the job description."
+  },
+  {
+    "id": "kb002",
+    "topic": "interview preparation",
+    "content": "For technical internship interviews, practice data structures and algorithms on LeetCode. For behavioral interviews, use the STAR method - Situation, Task, Action, Result. Research the company thoroughly before the interview. Prepare 3-5 questions to ask the interviewer."
+  },
+  {
+    "id": "kb003",
+    "topic": "finding internships",
+    "content": "Top platforms to find internships in India: LinkedIn, Internshala, LetsIntern, Unstop, AngelList, company career pages. Apply early, personalize your application, and follow up after one week. Networking on LinkedIn is one of the most effective strategies."
+  },
+  {
+    "id": "kb004",
+    "topic": "python internship",
+    "content": "For Python internships, focus on: core Python, OOP concepts, file handling, APIs with Flask or FastAPI, data manipulation with Pandas, and version control with Git. Build 2-3 projects and put them on GitHub. Common roles: Python Developer Intern, Backend Intern, Data Analyst Intern."
+  },
+  {
+    "id": "kb005",
+    "topic": "machine learning internship",
+    "content": "For ML internships, you need: Python, NumPy, Pandas, Scikit-learn, and basics of deep learning with TensorFlow or PyTorch. Work on Kaggle competitions, build end-to-end projects, and understand model evaluation metrics. Common roles: ML Intern, Data Science Intern, AI Research Intern."
+  },
+  {
+    "id": "kb006",
+    "topic": "web development internship",
+    "content": "For web development internships, learn HTML, CSS, JavaScript for frontend. For backend choose Node.js or Python. Learn React for modern frontend development. Build and deploy at least 2 full-stack projects. Common roles: Frontend Intern, Full Stack Intern, React Developer Intern."
+  },
+  {
+    "id": "kb007",
+    "topic": "cover letter",
+    "content": "A great cover letter is 3 paragraphs: first paragraph states the role and your excitement, second paragraph highlights your most relevant skills and a specific project, third paragraph expresses enthusiasm to contribute and requests an interview. Keep it under 300 words and personalize it for each company."
+  },
+  {
+    "id": "kb008",
+    "topic": "skill development",
+    "content": "To build skills for internships: use free resources like freeCodeCamp, CS50, Coursera, and YouTube. Build projects immediately after learning concepts. Contribute to open source on GitHub. Get certifications from Google, AWS, or Microsoft to strengthen your profile."
+  },
+  {
+    "id": "kb009",
+    "topic": "data science internship",
+    "content": "Data science internships require Python or R, SQL, statistics basics, data visualization with Matplotlib or Tableau, and machine learning fundamentals. Work on real datasets from Kaggle or UCI repository. Create a portfolio on GitHub and write about your projects on LinkedIn or Medium."
+  },
+  {
+    "id": "kb010",
+    "topic": "networking and linkedin",
+    "content": "LinkedIn tips for internship hunting: complete your profile 100%, add a professional photo, write a strong headline and about section, connect with alumni from your college, engage with posts in your field, message recruiters politely with a personalized note, and post about your projects and learnings regularly."
+  }
+]

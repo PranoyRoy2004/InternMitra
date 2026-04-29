@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — InternMitra</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar">
+    <a href="../index.html" class="navbar-brand">
+      <div class="logo">IM</div>
+      <span>Intern<em>Mitra</em></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="recommendations.html">Recommendations</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="dashboard.html" class="active">Dashboard</a></li>
+    </ul>
+  </nav>
+
+  <div class="section">
+
+    <!-- ── Header ── -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2rem;flex-wrap:wrap;gap:1rem;">
+      <div>
+        <h2 class="section-title">📊 Application Tracker</h2>
+        <p style="color:var(--gray-500);">Track all your internship applications in one place.</p>
+      </div>
+      <button class="btn btn-primary" id="addAppBtn">+ Add Application</button>
+    </div>
+
+    <!-- ── Stats Grid ── -->
+    <div class="stats-grid">
+      <div class="stat-card applied">
+        <div class="stat-number" id="statApplied">0</div>
+        <div class="stat-label">Applied</div>
+      </div>
+      <div class="stat-card interview">
+        <div class="stat-number" id="statInterview">0</div>
+        <div class="stat-label">Interview</div>
+      </div>
+      <div class="stat-card offer">
+        <div class="stat-number" id="statOffer">0</div>
+        <div class="stat-label">Offers</div>
+      </div>
+      <div class="stat-card rejected">
+        <div class="stat-number" id="statRejected">0</div>
+        <div class="stat-label">Rejected</div>
+      </div>
+      <div class="stat-card" style="border-color:var(--dark);">
+        <div class="stat-number" id="statTotal">0</div>
+        <div class="stat-label">Total</div>
+      </div>
+    </div>
+
+    <!-- ── Applications Table ── -->
+    <div class="card" style="overflow-x:auto;">
+      <div id="emptyState" class="empty-state">
+        <div class="empty-icon">📭</div>
+        <h3>No applications yet</h3>
+        <p>Click "Add Application" to start tracking your internship applications.</p>
+      </div>
+
+      <table class="tracker-table" id="trackerTable" style="display:none;">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Applied Date</th>
+            <th>Notes</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="trackerBody"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- ── Add Application Modal ── -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="modal-title">Add New Application</span>
+        <button class="modal-close" id="closeModal">✕</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Company Name *</label>
+        <input type="text" id="companyInput" class="form-control" placeholder="e.g. Google, Flipkart, Startup XYZ" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Role / Position *</label>
+        <input type="text" id="roleInput" class="form-control" placeholder="e.g. ML Intern, Frontend Developer Intern" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Status</label>
+        <select id="statusInput" class="form-control">
+          <option value="Applied">Applied</option>
+          <option value="Interview">Interview</option>
+          <option value="Offer">Offer</option>
+          <option value="Rejected">Rejected</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Date Applied</label>
+        <input type="date" id="dateInput" class="form-control" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Notes</label>
+        <textarea id="notesInput" class="form-control" rows="3"
+          placeholder="Any notes about this application..."></textarea>
+      </div>
+
+      <div style="display:flex;gap:10px;justify-content:flex-end;">
+        <button class="btn btn-ghost" id="cancelBtn">Cancel</button>
+        <button class="btn btn-primary" id="saveAppBtn">Save Application</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Built with <span>♥</span> using FastAPI + LLaMA 3 + RAG | InternMitra © 2024</p>
+  </footer>
+
+  <div class="toast-container" id="toastContainer"></div>
+  <script src="../js/main.js"></script>
+  <script src="../js/dashboard.js"></script>
+</body>
+</html>

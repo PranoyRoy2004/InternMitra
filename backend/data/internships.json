@@ -1,0 +1,56 @@
+[
+  {
+    "id": "int001",
+    "role": "Python Backend Intern",
+    "domain": "backend",
+    "skills": ["Python", "FastAPI", "REST APIs", "SQL", "Git"],
+    "experience": "beginner",
+    "description": "Build and maintain backend APIs, work with databases, and integrate third-party services.",
+    "roadmap": ["Learn Python basics", "Study OOP", "Build REST APIs with FastAPI", "Learn SQL", "Deploy a project on Render"]
+  },
+  {
+    "id": "int002",
+    "role": "Machine Learning Intern",
+    "domain": "ml",
+    "skills": ["Python", "Scikit-learn", "Pandas", "NumPy", "Statistics"],
+    "experience": "intermediate",
+    "description": "Develop and evaluate machine learning models, perform data preprocessing and feature engineering.",
+    "roadmap": ["Master Python and Pandas", "Study ML algorithms", "Work on Kaggle datasets", "Learn model evaluation", "Build an end-to-end ML project"]
+  },
+  {
+    "id": "int003",
+    "role": "Frontend Developer Intern",
+    "domain": "frontend",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Git"],
+    "experience": "beginner",
+    "description": "Build responsive UI components, work with designers, and integrate APIs into the frontend.",
+    "roadmap": ["Master HTML and CSS", "Learn JavaScript ES6+", "Study React basics", "Build 2 projects", "Learn Git workflow"]
+  },
+  {
+    "id": "int004",
+    "role": "Data Science Intern",
+    "domain": "data",
+    "skills": ["Python", "SQL", "Pandas", "Matplotlib", "Statistics"],
+    "experience": "intermediate",
+    "description": "Analyze large datasets, create visualizations, and generate insights to drive business decisions.",
+    "roadmap": ["Learn Python and SQL", "Study statistics", "Practice data visualization", "Work on real datasets", "Build a data portfolio"]
+  },
+  {
+    "id": "int005",
+    "role": "AI Research Intern",
+    "domain": "ai",
+    "skills": ["Python", "PyTorch", "NLP", "Deep Learning", "Research skills"],
+    "experience": "advanced",
+    "description": "Assist in AI research projects, implement papers, run experiments, and document findings.",
+    "roadmap": ["Strong Python and math foundation", "Study deep learning", "Read AI papers", "Implement models from scratch", "Contribute to open source AI"]
+  },
+  {
+    "id": "int006",
+    "role": "Full Stack Intern",
+    "domain": "fullstack",
+    "skills": ["React", "Node.js", "MongoDB", "REST APIs", "Git"],
+    "experience": "intermediate",
+    "description": "Work on both frontend and backend of web applications, handle databases and deployment.",
+    "roadmap": ["Learn HTML, CSS, JavaScript", "Study React", "Learn Node.js and Express", "Understand databases", "Deploy full stack projects"]
+  }
+]
