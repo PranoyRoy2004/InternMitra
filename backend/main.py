@@ -30,7 +30,11 @@ app = FastAPI(
 # In production, replace "*" with your actual frontend URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],        # Allow all origins in development
+    allow_origins=["https://heroic-stardust-3776f9.netlify.app",
+                   "http://localhost:5500",
+                   "http://127.0.0.1:5500",
+                    "http://127.0.0.1:3000"
+    ],        # Allow all origins in development
     allow_credentials=True,
     allow_methods=["*"],        # Allow GET, POST, PUT, DELETE etc.
     allow_headers=["*"],
