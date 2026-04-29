@@ -126,6 +126,7 @@ uvicorn app:app --reload
 
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/4190b17c-e17b-4c67-bf67-6170644bd70d" />
 
+
 <img width="1915" height="904" alt="image" src="https://github.com/user-attachments/assets/43a4ccf4-ddcf-4b13-8265-e98301354ab2" />
 
 
