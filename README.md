@@ -121,11 +121,9 @@ uvicorn app:app --reload
 
 ---
 
-📸 Screenshots
+📸 Screenshot
 
 <img width="1909" height="977" alt="image" src="https://github.com/user-attachments/assets/0faf6b1d-e970-49b7-b79b-dc6ff572728c" />
-
-<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/4190b17c-e17b-4c67-bf67-6170644bd70d" />
 
 ## 📈 Future Roadmap
 
