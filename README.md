@@ -1,8 +1,6 @@
 # 🚀 InternMitra – AI-Powered Career Intelligence Platform
 
 🔗 **Live Demo:** [https://heroic-stardust-3776f9.netlify.app/](https://heroic-stardust-3776f9.netlify.app/)
-📂 **Repository:** [https://github.com/PranoyRoy2004/InternMitra](https://github.com/PranoyRoy2004/InternMitra)
-
 ---
 
 ## 🧠 Overview
