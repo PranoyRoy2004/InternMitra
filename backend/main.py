@@ -80,11 +80,14 @@ async def health_check():
 
 # ── Run the server ────────────────────────────────────────────────────────────
 # This block only runs when you execute: python main.py directly
+# ── Run the server ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import uvicorn
+    import os
+    port = int(os.environ.get("PORT", 8000))
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
-        port=8000,
-        reload=True      # Auto-restart on file changes during development
+        port=port,
+        reload=False
     )
